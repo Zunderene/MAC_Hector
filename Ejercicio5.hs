@@ -1,2 +1,2 @@
 evaluaciones::[a]->[(a->b)]->[[b]]
-evaluaciones xs fun  = [fun x| x<-xs]
+evaluaciones xs funt  = [[fun x | fun<-funt] | x<-xs]
